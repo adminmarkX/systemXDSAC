@@ -5,7 +5,7 @@
 #include "data.h"
 #include "functions.h"
 
-int _init(node **head,node **tail,node **current){
+int init(node **head,node **tail,node **current){
 
 	printf("\nINITIALIZATION\n");
 	*head = NULL;

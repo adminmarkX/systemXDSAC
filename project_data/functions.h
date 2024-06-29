@@ -3,7 +3,7 @@
 #define FUNCTIONS_H
 #include "data.h"
 
-int _init(node **head,node **tail,node **current);
+int init(node **head,node **tail,node **current);
 void _add(node **head,node **tail,node **current);
 void _edit(node **head,node **tail,node **current);
 void _delete(node **head,node  **tail,node **current);

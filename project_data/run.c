@@ -9,9 +9,9 @@ int main(void){
 	node *head,*tail,*current;
 
 // this is the first step when we want to init a user data
-	printf("%d",_init(&head,&tail,&current));
+	printf("%d\n",init(&head,&tail,&current));
 	
-	if(_init(&head,&tail,&current)){
+	if(init(&head,&tail,&current)){
 		flag=1;
 		printf("hello");
 	}else{
